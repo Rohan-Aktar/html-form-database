@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carousel_Form</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <h1 id="heading" class="hidden">Please click the image</h1>
+  <body>
+    <div class="carousel"></div>
+    <div id="main" class="hidden">
+      <form action="" method="POST">
+        <table align="center">
+          <tr>
+            <td>
+              <label for="firstname"><b>First Name :</b></label>
+            </td>
+
+            <td>
+              <input
+                type="text"
+                placeholder="Enter First Name"
+                name="firstname"
+                id="firstname"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="lastname"><b>Last Name :</b></label>
+            </td>
+
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Last Name"
+                name="lastname"
+                id="lastname"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="email"><b>Email :</b></label>
+            </td>
+
+            <td>
+              <input
+                type="email"
+                placeholder="Enter Email"
+                name="email"
+                id="email"
+                required
+              />
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <label for="phone"><b>Phone Number :</b></label>
+            </td>
+
+            <td>
+              <input
+                type="text"
+                placeholder="Enter Phone Number"
+                name="phone"
+                id="phone"
+                required
+              />
+            </td>
+          </tr>
+        </table>
+        <input type="submit" id="submit" name="submit" />
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
